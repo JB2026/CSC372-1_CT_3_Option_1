@@ -79,7 +79,7 @@ public class MainMenu extends Application {
 		// Set font color to white
 		label.setTextFill(Color.WHITE);
 		
-		// Add the menu itmes
+		// Add the menu items
 		mainMenu.getItems().add(dateTime);
 		mainMenu.getItems().add(saveFile);
 		mainMenu.getItems().add(changeHue);
