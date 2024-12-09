@@ -128,7 +128,7 @@ public class MainMenu extends Application {
 	}
 	
 	// A method that sets the current date and time in the label
-	private void setMostRecentDateAndTime() throws IllegalFormatException {
+	private void setMostRecentDateAndTime() {
 		LocalDateTime currentDate = LocalDateTime.now();
 		
 		// Format current date and time
